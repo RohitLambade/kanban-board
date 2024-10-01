@@ -1,0 +1,131 @@
+
+html {
+  zoom: 100%; /* Ensures the page is displayed at actual size */
+}
+/* App-level styling */
+.app-container {
+  padding: 20px;
+  background-color: #f0f0f0; /* Light grey background for the rest of the page */
+  min-height: 100vh; /* Ensure the entire page takes the full height */
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0px; /* Set margin-bottom to 0 */
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropbtn {
+  background-color: white; /* White background for the button */
+  color: black; /* Black text color */
+  padding: 16px;
+  font-size: 16px;
+  border: 2px solid black; /* Black border */
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f0f0f0; /* Light grey background for dropdown */
+  min-width: 300px; /* Adjust width if necessary */
+  padding: 0px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  z-index: 1; /* Ensure the dropdown appears on top of other elements */
+
+
+}
+
+
+/* Flexbox layout for labels and dropdowns */
+.option-group, .option-sort {
+  display: flex;
+  align-items: center; /* Vertically align label and dropdown */
+  margin-bottom: 15px;
+}
+
+.option-group label, .option-sort label {
+  color: #4d4d4d; /* Dark grey for the label text */
+  font-weight: bold;
+  margin-right: 30px; /* 30px spacing between label and dropdown */
+}
+
+.option-group select, .option-sort select {
+  padding: 8px;
+  width: auto; /* Allow the dropdown to fit the content dynamically */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Icon positioning */
+.icon-left {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-right {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Kanban Board styling (rest of the content) */
+.kanban-board {
+  background-color: #f0f0f0; /* Grey background for the board area */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1ecec; /* Light grey background for dropdown */
+  min-width: 350px; /* Increased width */
+  padding: 15px; /* Larger padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-size: 16px; /* Increased font size */
+  top: 105%; /* Adjusted top to add a 5px gap below the button */
+  margin-top: 5px; /* Ensures a 5px gap between the button and dropdown */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Flexbox layout for labels and dropdowns */
+.option-group label, .option-sort label {
+  color: #4d4d4d; /* Dark grey for the label text */
+  font-weight: bold;
+  margin-right: 30px; /* Spacing between label and dropdown */
+}
+
+.option-group select, .option-sort select {
+  padding: 10px; /* Increase padding for a larger dropdown */
+  width: 100%; /* Ensure dropdown fills the container */
+  border-radius: 6px; /* Keep the border radius consistent */
+  border: 1px solid #ccc;
+  font-size: 16px; /* Increase font size for consistency */
+}
+

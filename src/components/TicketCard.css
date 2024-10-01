@@ -1,0 +1,170 @@
+/* Ticket Card styling */
+.ticket-card {
+    background-color: white;
+    padding: 6px;
+    margin-bottom: 9px;
+    border-radius: 3px;
+    box-shadow: 0 1.2px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 120px; /* Adjusted height to accommodate two lines of text */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Ensures the card header has space for both the text and the user icon */
+.ticket-id {
+    font-weight: bold;
+    font-size: 12px; /* Increased font size */
+    color: #afafaf;
+}
+
+/* Exact Circle for User Icon */
+.user-icon {
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 10px;
+    position: relative; /* Needed for positioning the small circle */
+}
+
+.user-icon::after {
+    content: '';
+    width: 8px; /* Size of the small grey circle */
+    height: 8px;
+    background-color: grey; /* Grey color for the small circle */
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid white; /* Optional: to add a small white border around the circle */
+}
+
+
+/* Styling the title to display two lines with ellipsis */
+.ticket-title {
+    margin: 6px 0;
+    font-size: 14px; /* Increased font size */
+    line-height: 1.2em; /* Line height to control the text line spacing */
+    max-height: 2.4em; /* Maximum height for two lines of text */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit the text to 2 lines */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis; /* Add ellipsis (...) at the end if text overflows */
+    margin-bottom: 5px; /* Added 5px gap between title and feature request */
+}
+
+/* .priority-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+} */
+
+
+
+
+
+.grey-dot {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.status-section {
+    display: flex;          /* Flexbox for alignment */
+    align-items: center;    /* Align items vertically */
+    justify-content: flex-start;  /* Align items to the left */
+}
+
+.status-icon {
+    margin-right: 8px; /* Spacing between the icon and the text */
+    width: 15px;
+    height: 15px;
+}
+
+.status-text {
+    font-weight: bold;      /* Make 'Todo' bold */
+    color: black;           /* Set 'Todo' text color to black */
+    margin-right: 5px;      /* Adjust spacing between text and count */
+}
+
+
+
+/* 3-dot menu and Add icon on the right side of the status text */
+.status-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.three-dot-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px; /* Space between text and 3-dot icon */
+    cursor: pointer;
+}
+
+.add-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px; /* Space between 3-dot and add icon */
+    cursor: pointer;
+}
+
+
+
+.status-count {
+    font-weight: normal;    /* Make '3' non-bold */
+    color: grey;            /* Set '3' text color to grey */
+}
+
+
+
+.priority-section {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start;
+  }
+  
+  /* Priority Icon with small curved edges, border, and white background */
+  .priority-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #e9e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px; /* Space between priority icon and feature request */
+  }
+  
+  /* Feature Request Block with small curved edges, white background, grey text, and border */
+  .feature-request {
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    background-color: white;
+    border: 1px solid #e9e7e7;
+    border-radius: 5px;
+    font-size: 12px; /* Increased font size to match priority section */
+    height: 20px; /* Set height to be equal to the priority icon */
+    margin-left: 10px; /* Ensure spacing between priority icon and feature request */
+  }
+  
