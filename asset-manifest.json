@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/repository-name/static/css/main.6629f255.css",
+    "main.js": "/repository-name/static/js/main.8a25a050.js",
+    "static/js/453.f0f88b0d.chunk.js": "/repository-name/static/js/453.f0f88b0d.chunk.js",
+    "static/media/Display.svg": "/repository-name/static/media/Display.0168095040354204011b596e30abf32e.svg",
+    "static/media/Cancelled.svg": "/repository-name/static/media/Cancelled.360749f102ea2ac68b5841e9f9ff29dd.svg",
+    "static/media/3 dot menu.svg": "/repository-name/static/media/3 dot menu.4caedb468f68b915626e0e35045257b3.svg",
+    "static/media/No-priority.svg": "/repository-name/static/media/No-priority.7218b139313728c6a4efa8da6e34852b.svg",
+    "static/media/Done.svg": "/repository-name/static/media/Done.a5158827c6345b2f141ff681c57cb3ac.svg",
+    "static/media/down.svg": "/repository-name/static/media/down.b19d146ddbaad572f0f5cebb6dbdf766.svg",
+    "index.html": "/repository-name/index.html",
+    "static/media/Img - Low Priority.svg": "/repository-name/static/media/Img - Low Priority.491e21f9000cb90112dea470dbb72650.svg",
+    "static/media/Img - Medium Priority.svg": "/repository-name/static/media/Img - Medium Priority.83775665307e977d62e9b0fc7fb95cc4.svg",
+    "static/media/Img - High Priority.svg": "/repository-name/static/media/Img - High Priority.5024fd0d163cb13c95f2d29079e2974d.svg",
+    "static/media/SVG - Urgent Priority grey.svg": "/repository-name/static/media/SVG - Urgent Priority grey.45cb3c374d391aeb2ee4672390634279.svg",
+    "static/media/Grey-dot.svg": "/repository-name/static/media/Grey-dot.6859fc7015b30286970176aafc768169.svg",
+    "static/media/add.svg": "/repository-name/static/media/add.f84a7335f3fac0026df6cafc2489b65d.svg",
+    "static/media/SVG - Urgent Priority colour.svg": "/repository-name/static/media/SVG - Urgent Priority colour.9b67f75d5459d4d66573ef9f8e6f6841.svg",
+    "static/media/in-progress.svg": "/repository-name/static/media/in-progress.49bf32a9ba9e7320b3ee8dd54139cce5.svg",
+    "static/media/Backlog.svg": "/repository-name/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
+    "static/media/To-do.svg": "/repository-name/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
+    "main.6629f255.css.map": "/repository-name/static/css/main.6629f255.css.map",
+    "main.8a25a050.js.map": "/repository-name/static/js/main.8a25a050.js.map",
+    "453.f0f88b0d.chunk.js.map": "/repository-name/static/js/453.f0f88b0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6629f255.css",
+    "static/js/main.8a25a050.js"
+  ]
+}
